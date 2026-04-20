@@ -1,0 +1,13 @@
+# Module 8: Reports & Analytics (Ganga / Dinesh)
+
+### Ganga's Presentation Content (Frontend)
+In the final module, Reports & Analytics, I focused on transforming raw system data into actionable visual insights through a sophisticated 'Synapse Matrix' dashboard. I implemented a comprehensive suite of charting tools using 'recharts', allowing managers to visualize ticket distribution by status, priority, and agent workload at a glance. One of my key accomplishments was the development of the 'User Performance Analysis' interface, which uses a dynamic, vertical bar chart with custom-styled gradients to show real-time workload distribution across the entire support team. I also integrated highly responsive time-range filters—ranging from 7 to 90 days—that trigger immediate data refreshes across all visualizations without requiring a full page reload. To ensure data portability, I developed a custom CSV export utility that allows administrators to download processed metrics for external auditing. My work ensures that our management team has a premium, high-fidelity environment to monitor system health and team efficiency through a sleek, data-driven interface that remains consistent with our project's futuristic aesthetic.
+
+### Dinesh's Presentation Content (Backend)
+For the backend of Module 8, I engineered a high-performance analytics engine that performs complex data aggregation and role-based filtering across thousands of records. I developed the 'Synapse Matrix' API, which utilizes Prisma's advanced 'groupBy' and 'count' operations to efficiently compute real-time statistics for statuses, priorities, and SLA compliance. To support operational oversight, I built a secondary reporting layer that tracks agent performance by dynamically counting assigned tickets within customizable timeframes, providing the data needed for the frontend's performance visualizations. I also implemented rigorous role-based data isolation, ensuring that support agents only see metrics related to their own assignments, while Managers and Admins maintain full visibility into the entire system hierarchy. Furthermore, I developed dedicated endpoints for specialized SLA auditing and recent activity tracking, providing a comprehensive historical view of system interactions. My implementation provides the project with the analytical depth required for data-driven decision making, ensuring that our reporting infrastructure is both secure and capable of handling complex aggregation tasks at scale.
+
+### **Files in this Module**
+- [Reports.jsx](Reports.jsx)
+- [Dashboard.jsx](Dashboard.jsx)
+- [StatsCard.jsx](StatsCard.jsx)
+- [reports.js (Routes)](reports.js)

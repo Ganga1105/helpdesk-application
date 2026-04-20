@@ -1,0 +1,12 @@
+# Module 7: Knowledge Base (Nithish Kumar / Sarweshwaran)
+
+### Nithish Kumar's Presentation Content (Frontend)
+In Module 7, I focused on creating the 'Neural Archive', a comprehensive Knowledge Base designed to empower our users with self-service support. I developed a highly interactive article directory that features real-time search functionality and category-based filtering, allowing users to find the exact information they need within seconds. A major part of my work involved designing the 'Article Details' view, which provides a clean, distraction-free reading experience with integrated breadcrumb-style navigation for easy return to the main archive. I leveraged 'Framer Motion' to implement subtle transition effects for our article cards, ensuring the interface feels responsive and alive. To maintain a premium look, I used a glass-morphism aesthetic that remains consistent with the rest of our application's design system. My implementation ensures that our Knowledge Base is not just a repository of text, but a modern and accessible resource that helps reduce the overall volume of support tickets by putting answers directly into our users' hands.
+
+### Sarweshwaran's Presentation Content (Backend)
+For the backend of the Knowledge Base module, I engineered a high-performance content delivery system that manages the storage, retrieval, and visibility of our support documentation. I developed the core API routes to support public-facing article queries, utilizing Prisma's powerful filtering capabilities to handle both category-specific requests and complex keyword searches across titles and content. Beyond retrieval, I implemented a robust administrative layer with strict role-based authorization, ensuring that only users with Administrative or Super Admin privileges can create, update, or delete articles. This includes a visibility control system that allows content to be staged internally before being published to the public archive. I also focused on optimizing data relationships to ensure that even a large archive of articles remains fast and responsive. My work provides the secure and scalable backbone for our informational ecosystem, combining ease of access for public users with rigorous management tools for our administrative team.
+
+### **Files in this Module**
+- [KnowledgeBase.jsx](KnowledgeBase.jsx)
+- [ArticleDetails.jsx](ArticleDetails.jsx)
+- [kb.js (Routes)](kb.js)
